@@ -2,17 +2,20 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: part1
-  sections:
-  - file: part1-1.md
-- file: part2
-  sections:
-  - file: part2-1.md
-- file: part3
-  sections:
-  - file: part3-1
-  - file: part3-2
-  - file: part3-3
-- file: part4
+root: index
+parts:
+- caption: The Project
+  chapters:
+  - file: part-1.md
+  - file: part-2.md
+  - file: part-3.md
+  - file: part-4.md
+  - file: part-5.md
+  - file: part-6.md
+  - file: part-7.md
+  - file: part-8.md
+  - file: part-9.md
+- caption: End Matter
+  chapters:
+  - file: wait-what.md
+  - file: bio.md
