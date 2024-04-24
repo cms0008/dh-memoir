@@ -1,0 +1,589 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Sentiment(al) Analysis &#8212; Christine&#39;s Lifelong Existential Crisis</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'part3-1';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Absolutely Not The Roaring ‘20s" href="part3-2.html" />
+    <link rel="prev" title="The Breakup" href="part3.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Christine's Lifelong Existential Crisis - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Christine's Lifelong Existential Crisis - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="part1.html">Putting The “Me” Back In Memoir</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="part1-1.html">The Corpus</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="part2.html">A Trash Can, Honestly</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="part2-1.html">In Which I Am Personally Attacked By The Topic Model</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="part3.html">The Breakup</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Sentiment(al) Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="part3-2.html">Absolutely Not The Roaring ‘20s</a></li>
+<li class="toctree-l2"><a class="reference internal" href="part3-3.html">The Academy’s Impact On My Desire To Be Read</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="part4.html">Christine’s Lifelong Existential Crisis (Redux)</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fpart3-1.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/part3-1.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Sentiment(al) Analysis</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-thoughts-for-further-study">Questions/Thoughts for Further Study</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="sentiment-al-analysis">
+<h1>Sentiment(al) Analysis<a class="headerlink" href="#sentiment-al-analysis" title="Link to this heading">#</a></h1>
+<p>When it comes to “idiosyncrasies that changed (or stayed the same) over time,” what very much comes to mind first is what I write about and how I feel about myself while I’m writing it. Which means we’re doing sentiment analysis.</p>
+<p>It turns out Voyant could help me out here, thanks to its (“new experimental”) <a class="reference external" href="https://voyant-tools.org/docs/#!/guide/categories">Categories</a> feature that I decided to test for this portion of the project. Basically, Voyant has created a list of “positive” words and a list of “negative” words — a rudimentary form of sentiment analysis. And as someone who considers my writing rather negative, I am a total sucker for this stuff.</p>
+<p>Voyant can tell me how many words it has categorized as “positive” and “negative,” so I grabbed these numbers for each of the 37 pieces in my corpus; then, I calculated the percentage of “positive” and “negative” words per piece and added them to my spreadsheet.</p>
+<p>I was most interested in analyzing this through the lens of time — how “positive” and “negative” has my memoir writing been over time? Here’s what I came up with:</p>
+<p><img alt="A graph called Sentiment Over Time with two lines, one green and one red, weaving from about 2 to 6% positive or negative word counts over a span from 2008 to 2023." src="_images/sentiment-over-time.png" /></p>
+<p>That’s what teen angst looks like! (I started undergrad in 2008.)</p>
+<p>I’m seeing a couple of other things, though, namely that first “negative” crater in 2013. This reflects the small sample size — there’s only one piece from 2013 in my corpus, and Voyant just didn’t think it wasn’t a negative one. (For the record, neither do I.) Overall, I’m less surprised by the “negative” line eventually flattening out and more intrigued by how flexible the “positive” line has been. When I perceive my writing as “negative,” am I really just coming to this conclusion based on the relative absence or presence of “positivity”? (I’m going to stop using scare quotes around “positive” and “negative” right…<em>now</em>.)</p>
+<p>When I think about this graph in the context of my topics, I am wholly unsurprised that my 2008 writing was so negative. A quick look at Topic 6 (“growing up with my parents”) reveals both that it was the primary topic for writing I did in 2008 and one of the most negative topics overall.</p>
+<p>I created another questionably useful graph that, at least for this moment, does visualize what I need it to visualize:</p>
+<p><img alt="A graph called Positive Percentage and Negative Percentage By Topic with green and red dots each representing an individual piece across 10 topics." src="_images/sentiment-topics.png" /></p>
+<p>Similar to Topic 6, Topic 4 (“mental illness history”), is fueled by two of my most negative pieces overall by percentage of words. Meanwhile, Topic 7 (“my history playing music”) and Topic 8 (“considerations of gender”) both trend positive. (Note: My writing about gender stuff, to me, is not always positive! I was fraught writing much of it! But also…Topic 8 is not really about gender, even though it is. More on that later.)</p>
+<p>True to form, I’d like to dig into the negatives. I’m pretty sure I know why Topic 4 (“mental illness history”) and Topic 6 (“growing up with my parents”) are fueled by negative writings. But why does Voyant think this? My hypothesis has to do both with the newness of the Categories tool and of the way I’m pretty sure I approached these topics when I wrote about them: that it was the words I used to describe my parents and home life that Voyant perceived as negative, while it flagged mental health and mental illness jargon <em>itself</em> as negative. (One thing to note about the Categories feature is that nowhere does Voyant share how it decided which words were positive and negative, nor are sentiments weighted. While <a class="reference external" href="https://vadersentiment.readthedocs.io/en/latest/index.html">VADER</a> — a much more sophisticated sentiment analysis tool — has robust documentation that covers all of this, Voyant’s positive/negative word association exists only on its own.)</p>
+<p>Rather than look at all of the pieces associated with Topic 4 and Topic 6, I decided to focus on the pieces where Topic Modeling Tool said either 4 or 6 was the most notable topic (and narrow my sample size to an even less statistically significant total, but it’s fine). That came out to three pieces for Topic 4 and four pieces for Topic 6. Then, I exported just the negative words as individual text files so I could ask OpenRefine to tell me which words were most common in each file. (Voyant can allegedly do this, but its results were just…not…correct?)</p>
+<p>These are the top 10 words in each set of writings that represent these topics (Note: Because I stopped at 10, some words with the same frequencies as the bottom words were left out because OpenRefine alphabetizes words sorted by count):</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Topic 4 (mental illness)</p></th>
+<th class="head"><p>Topic 6 (parents)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>anxiety (22)</p></td>
+<td><p>anger (8)</p></td>
+</tr>
+<tr class="row-odd"><td><p>death (10)</p></td>
+<td><p>annoyed (3)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>attack (8)</strong></p></td>
+<td><p><strong>depression (3)</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>break (6)</p></td>
+<td><p>lose (3)</p></td>
+</tr>
+<tr class="row-even"><td><p>die (6)</p></td>
+<td><p>negative (3)</p></td>
+</tr>
+<tr class="row-odd"><td><p>fall (6)</p></td>
+<td><p>problem (3)</p></td>
+</tr>
+<tr class="row-even"><td><p>illness (6)</p></td>
+<td><p>rage (3)</p></td>
+</tr>
+<tr class="row-odd"><td><p>symptoms (6)</p></td>
+<td><p>stubborn (3)</p></td>
+</tr>
+<tr class="row-even"><td><p>darkness (5)</p></td>
+<td><p>angry (2)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>depression (5)</strong></p></td>
+<td><p><strong>attacks (2)</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>Not to be too unfairly succinct, but, yeah, this is about what I expected. “Anxiety,” “attack” (7 of 8 were used in conjunction with “anxiety,” as in “anxiety attack”), “illness,” “symptoms,” and “depression” feature heavily in Topic 4, all clinical-ish terms to do with mental illness as a thing. Meanwhile, Topic 6 sees a list of words that describe my feelings, reactions, experiences, and emotions surrounding growing up with my parents: anger, annoyance, rage, stubbornness. I was also interested in how “depression” and “attack(s)” appear on both lists, because my assumption is that the contexts are different — for example, “depression” in Topic 4 probably refers to clinical depression, while “depression” in Topic 6 refers to the feeling of being depressed. When I looked at each piece, I confirmed that this was completely accurate.</p>
+<p>Thinking about Voyant’s Categories as a whole, I would say that some of these words I agree with and some of them I aggressively don’t. In the contexts in which I use it, yes, “anxiety” is absolutely negative. I can also understand an argument where it could be neutral — for example, “I have anxiety” could just be a statement of fact — but not how I’ve used it in these pieces. But I have some questions. For instance, “break” is tagged as negative, even though I’ve most frequently used it in the context of an academic year: spring break, winter break, summer break, and so on. Could these <em>terms</em> have positive or negative connotations to different people? One hundred percent. Do I think that’s what Voyant is getting at? No, I think it’s just categorized “break” as in a broken thing.</p>
+<p>Just for fun, here are some more words that Voyant has in its negative category:</p>
+<ul class="simple">
+<li><p><strong>Cloud:</strong> To be fair, I used the verb form in a negative way. But I’m not sure this tool is sophisticated enough to not tag the noun as negative, too. Sometimes a cloud is just a cloud. (Take that, Wordsworth.)</p></li>
+<li><p><strong>Hum:</strong> <a class="reference external" href="https://www.oed.com/search/dictionary/?scope=Entries&amp;amp;q=hum">I OED’d this</a> because I could not come up with a single negative use for “hum” on my own. It turns out there are many. However, when I used “hum” in my work to refer to me playing the flute, I did not mean it negatively.</p></li>
+<li><p><strong>Indulge:</strong> For those who attach morality to food, I understand that “indulge” often colloquially refers to, like, indulging oneself because they’re “cheating” or “being bad” or whatever. I disagree.</p></li>
+<li><p><strong>Myth:</strong> Yet again, sometimes negative, but sometimes a myth is just a thing, and sometimes it’s a very culturally important, positive thing.</p></li>
+<li><p><strong>Tank:</strong> Once again, Voyant has determined that the verb form is negative, but the noun form is caught in the crossfire. I personally think a goldfish having a place to live is neat.</p></li>
+<li><p><strong>Literally just the letter F:</strong> This one’s on me. Voyant means it like the grade. Unfortunately, this is a data cleaning error — I have a few instances of French words that start with F and the next letter has a diacritic, e.g. “fête.” But since Voyant ignores diacritics, the word becomes “F.”</p></li>
+</ul>
+<section id="questions-thoughts-for-further-study">
+<h2>Questions/Thoughts for Further Study<a class="headerlink" href="#questions-thoughts-for-further-study" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Despite my brand as someone who writes about negative topics, I’d like to know more about the positive words. Are there any neat connotations I can draw from these? Are any topics or experiences more “positive” than others?</p></li>
+<li><p>Voyant allows you to add and remove positive and negative words to categories. What might happen if I edited the existing lists to better suit my work? Obviously this would introduce more bias to an already very biased analysis, but could the bias introduced through this action be clarifying? Or would it just muddle the data and lead me to attempt to draw conclusions from a dataset that just doesn’t work anymore? (When would I know when to stop editing?)</p></li>
+<li><p>Of course, other tools — like VADER — approach sentiment analysis differently, so I’d be interested to see how these tools interpret my work.</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="part3.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">The Breakup</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="part3-2.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Absolutely Not The Roaring ‘20s</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-thoughts-for-further-study">Questions/Thoughts for Further Study</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Christine Salek
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
