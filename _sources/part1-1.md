@@ -10,11 +10,9 @@ The 37 pieces can be broadly broken up as follows:
 
 So that was that. I’ve written a lot about myself. It has always made me feel a little bit weird to have shared so much about myself with so many people, but at the same time, I appreciate that I have this much content I can look at again in a new way.
 
-````{div} full-width
 ```{note}
 I recently read [an article from 2023](https://www.washingtonpost.com/parenting/2023/07/11/day-in-the-life-tiktok-babies/) that goes over how some “momfluencers” justify sharing their kids’ lives online before they can consent with something like, “They’ll be glad someday that they can look back on all this.” And my first thought was, “But why does that necessitate putting it online when you can just get a giant external hard drive?” And then I remembered this project and went, welp, I guess I’m glad that I’m only exploiting myself.
 ```
-````
 
 ## A Quick Tangent About Basketball
 
