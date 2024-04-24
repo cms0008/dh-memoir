@@ -1,4 +1,4 @@
-# In Which I Am Personally Attacked By The Topic Model
+# In Which I Am Personally Attacked by the Topic Model
 
 Once again, here’s what I expected to find in this corpus before I started investigating:
 

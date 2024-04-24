@@ -1,4 +1,4 @@
-# Putting The "Me" Back In Memoir
+# Introduction: Putting The "Me" Back in Memoir
 
 ![A Discord message that says: I should use this corpus of my undergrad papers for something](images/hd-1.png)
 

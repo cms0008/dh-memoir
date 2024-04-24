@@ -1,4 +1,4 @@
-# The Academy’s Impact On My Desire To Be Read
+# The Academy’s Impact on My Desire to Be Read
 
 Does my writing change based on the audience I’m writing for? In this case, I was interested in whether my writing — as I suspected — became more “unreadable” if I were writing for school. My memoir writing for school has all been in pursuit of a high grade, but often I’ve also taken the pieces to a workshop where my classmates would be reading them, too.
 
