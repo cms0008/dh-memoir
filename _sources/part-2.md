@@ -29,4 +29,4 @@ My initial research questions for this corpus were as follows:
 
 And while I found it valuable to look at the corpus as a whole for my personal enjoyment (e.g., when I topic modeled and went, “Ah, yes, these topics do make sense as descriptors of the things I write about a lot”), I knew that any further distant reading would benefit from a closer look. Yes, there’s _something_ here — this player is “good”; this piece “is especially readable” or “has short sentences” — but I needed to divide my work into smaller pieces to understand what exactly was going on.
 
-[^1]: By which I mean the fanfiction definition of slow burn — the carefully timed reveal of new information — not the kind resulting in an angry outburst.
+[^1]: By which I mean something closer to the [fanfiction definition of slow burn](https://www.urbandictionary.com/define.php?term=Slow+Burn) — a carefully timed reveal of new information — not the kind resulting in an angry outburst.
