@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Christine’s Lifelong Existential Crisis &#8212; Christine&#39;s Lifelong Existential Crisis</title>
+    <title>The Breakup &#8212; Christine&#39;s Lifelong Existential Crisis</title>
   
   
   
@@ -57,9 +57,11 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'readme';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'part-5';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Sentiment(al) Analysis" href="part-6.html" />
+    <link rel="prev" title="In Which I Am Personally Attacked by the Topic Model" href="part-4.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -121,8 +123,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -169,12 +169,12 @@
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">The Project</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="part-1.html">Introduction: Putting The “Me” Back in Memoir</a></li>
 <li class="toctree-l1"><a class="reference internal" href="part-2.html">The Corpus</a></li>
 <li class="toctree-l1"><a class="reference internal" href="part-3.html">A Trash Can, Honestly</a></li>
 <li class="toctree-l1"><a class="reference internal" href="part-4.html">In Which I Am Personally Attacked by the Topic Model</a></li>
-<li class="toctree-l1"><a class="reference internal" href="part-5.html">The Breakup</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">The Breakup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="part-6.html">Sentiment(al) Analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="part-7.html">Absolutely Not The Roaring ‘20s</a></li>
 <li class="toctree-l1"><a class="reference internal" href="part-8.html">The Academy’s Impact on My Desire to Be Read</a></li>
@@ -254,7 +254,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Freadme.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fpart-5.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -284,7 +284,7 @@
       
       
       
-      <li><a href="_sources/readme.md" target="_blank"
+      <li><a href="_sources/part-5.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -366,7 +366,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Christine’s Lifelong Existential Crisis</h1>
+    <h1>The Breakup</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -380,9 +380,26 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="christine-s-lifelong-existential-crisis">
-<h1>Christine’s Lifelong Existential Crisis<a class="headerlink" href="#christine-s-lifelong-existential-crisis" title="Link to this heading">#</a></h1>
-<p>A digital humanities memoir :)</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="the-breakup">
+<h1>The Breakup<a class="headerlink" href="#the-breakup" title="Link to this heading">#</a></h1>
+<p>Now that I had a handle on what the computer thinks of my corpus as a whole, I split my corpus into pieces in three ways:</p>
+<ul class="simple">
+<li><p><strong>Time:</strong> I grouped pieces together from four eras of my life: 2008-2013 (7); 2015-2017 (10); 2020 (11); and 2021-2023 (9). <em>(I don’t have anything from 2014, 2018, or 2019, so I omitted those years here.)</em></p></li>
+<li><p><strong>Audience:</strong> As noted above, my corpus can be pretty easily split between “for school” and “for a wide audience.” I added the piece I wrote for a magazine to the “self-published” section for a split of 25 and 12.</p></li>
+<li><p><strong>Topic:</strong> I grouped pieces together based on their primary assigned topic per Topic Modeling Tool. One piece had two primary assigned topics, Topic 4 and Topic 10, so I selected Topic 4 since Topic 10 was otherwise represented in every piece. (More on Topic 10 in Part 4.)</p></li>
+</ul>
+<p>Then, I created a spreadsheet that displayed several metrics from Voyant about every piece in the corpus, including word count, vocabulary density, words per sentence, readability, and which topic(s) that Topic Modeling Tool told me were most associated with each piece. In addition to laying out this data on an individual piece basis, I calculated the per-piece averages of each metric when I sorted the pieces by time, audience, and topic. I added some conditional formatting in the form of a color scale for each metric, and bam, I had a very basic heat map.</p>
+<p>Naturally, there was a lot I wanted to explore here, and I knew I wouldn’t be able to devote the time I wanted to all of it. To revisit my research questions from Part 1:</p>
+<ul class="simple">
+<li><p>Did my writing get better (or worse) over time?</p>
+<ul>
+<li><p>What do “better” and “worse” mean?</p></li>
+</ul>
+</li>
+<li><p>Can I identify any idiosyncrasies that changed (or stayed the same) over time?</p></li>
+<li><p>What differences exist between the mediums of publication — e.g., a piece I wrote knowing others would see it vs. a piece I wrote for an instructor — if any?</p></li>
+</ul>
+<p>Yeah, let’s just get into as much of this as is holistically possible.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -415,6 +432,24 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="part-4.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">In Which I Am Personally Attacked by the Topic Model</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="part-6.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Sentiment(al) Analysis</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
