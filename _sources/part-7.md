@@ -1,4 +1,4 @@
-# Absolutely Not The Roaring ‘20s
+# Absolutely Not the Roaring ‘20s
 
 In January of 2020, my coworker asked all the staff at our library to share what we thought the 2020s might be called (think “Roaring ‘20s”). I don’t remember what I suggested, and a couple of months later when we shut down to the public due to COVID-19, things felt a little too real to assign a silly adjective to the collective horror of a global pandemic anyway.
 
