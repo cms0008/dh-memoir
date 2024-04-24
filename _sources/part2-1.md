@@ -61,7 +61,7 @@ I tagged Topic 6 as “growing up with my parents,” which I think is the ultim
 
 As mentioned previously, Topic Modeling Tool allows you to see which documents factored most into the topics. Three of the top four (each of which had between 150 and 400 words that factored into the topic) were essays I wrote in undergrad for a freshman comp class. All three were specifically about my family. The fourth was a reflection on the “quarantine 15,” which doesn’t _not_ figure into comments I received about my own body growing up.
 
-**10. time people day school year life ~~didn~~ back felt make knew friends ~~don~~ made things home ~~wasn~~ feel friend work**
+**10. time people day school year life <s>didn</s> back felt make knew friends <s>don</s> made things home <s>wasn</s> feel friend work**
 
 Topic 10 felt like a trash can, honestly.[^1] All three contraction fragments ended up here, and what remained were a bunch of generic-seeming words that felt like they applied to a person in general, not me specifically. Time? It passes. School? People typically go to it. Friend/friends? A thing people tend to have. “History of my platonic relationships” arose from my desire to connect the dots by force — I tend to have made my friends at school or work, for instance. And they are…people? In my life? Who I feel things about?
 
