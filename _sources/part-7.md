@@ -18,4 +18,4 @@ What stands out most to me is Topic 8 (“considerations of gender, pronouns, be
 
 [^1]: As mentioned when I first introduced the [topic model](part-4.md), so many people I know came out as trans in 2020. We all inspired each other, I think.
 
-[^2]: I left Substack in 2021 due to the company’s unapologetic platforming — and funding — of some of the best known transphobes who had previously been so transphobic they’d been banned from other social media sites. Fun!
+[^2]: I left Substack in 2021 due to the company’s unapologetic platforming — [and funding](https://doyles.substack.com/p/in-queers-we-trust-all-others-pay) — of some of the best known transphobes, many of whom had previously been so transphobic that they’d been banned from other social media sites. Fun!

@@ -2,12 +2,12 @@
 
 Once again, here’s what I expected to find in this corpus before I started investigating:
 
-- **Basketball** (my journalism career mainly focused on covering the WNBA and NCAA women’s basketball)
-- **Family** (they’ve kind of just always been around, you know?)
-- **Music** (as a musician since age 7, I should hope so)
-- **Mental Health** (as a mentally ill person for at least the last 20 years, I should hope so)
-- **Gender Stuff** (I came out as nonbinary in 2020, and it’s a running joke among my friends how many of us during this time were like “in light of the global pandemic, I have some personal news…”)
-- **School** (I’ve been in some higher education program or another for 10 of the last 16 years)
+- **Basketball**
+- **Family**
+- **Music**
+- **Mental Health**
+- **Gender Stuff**
+- **School**
 
 And here’s what one round of asking Topic Modeling Tool for 10 topics gave me. (Here, I’ve entirely removed the names of people I personally know that show up here. I also crossed out instances of partial contractions — what? — as well as partial numbers, e.g. “000,” since this probably appeared following a comma as part of a whole number like “1,000” rather than as “000” alone.)
 
@@ -69,4 +69,4 @@ I just really appreciated the earnest attempt on Friend A’s part to make sense
 
 In conclusion, the topic model doesn’t know better than me, but I feel like I have a better understanding of what a distant read prioritizes. Now, let’s ruin it!
 
-[^1]: The original comment I left to myself on this sentence: "for sure, but it's also an existential crisis you can mine for content"
+[^1]: The original comment I left to myself on this sentence: _"for sure, but it's also an existential crisis you can mine for content"_
