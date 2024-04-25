@@ -8,7 +8,7 @@ Now that I had a handle on what the computer thinks of my corpus as a whole, I s
 
 Then, I created a spreadsheet that displayed several metrics from Voyant about every piece in the corpus, including word count, vocabulary density, words per sentence, readability, and which topic(s) that Topic Modeling Tool told me were most associated with each piece. In addition to laying out this data on an individual piece basis, I calculated the per-piece averages of each metric when I sorted the pieces by time, audience, and topic. I added some conditional formatting in the form of a color scale for each metric, and bam, I had a very basic heat map.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQNQ-4PDK3D8AJdXEwJI9-yyPvr2y0OOqs_10ZPzpt7eKChS-sxG-24T-Gzhkd8E23nz6v85i7QIY5_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQNQ-4PDK3D8AJdXEwJI9-yyPvr2y0OOqs_10ZPzpt7eKChS-sxG-24T-Gzhkd8E23nz6v85i7QIY5_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" style="height: 100vh;"></iframe>
 
 Naturally, there was a lot I wanted to explore here, and I knew I wouldn’t be able to devote the time I wanted to all of it. To revisit my research questions from Part 1:
 
