@@ -1,4 +1,4 @@
-# A Trash Can, Honestly
+# Bye-Grams
 
 If I were to briefly summarize the writing in this corpus based a lifelong close read, here is what I expect might make an appearance (and a quick explanation):
 
