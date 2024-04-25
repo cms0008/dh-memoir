@@ -23,6 +23,6 @@ Let’s look at some bigrams:
 
 “High school” being in such huge letters is horrific and so, so true.
 
-But at the end of the day, I’m more taken by how this demonstrates the limitations of bigrams. I wrote an entire piece about an experience I had at [Challenge Day](https://www.challengeday.org/), so it’s much larger than “anxiety attack,” an experience that figures more prominently into more pieces but isn’t referred to by that name at all times (I’ll go over this one in particular in Part 3). And “even though”? “Every time”? “Every day”? Are these just bad writing habits or could they mean something more that I’ll never uncover because they’re such common phrases?
+But at the end of the day, I’m more taken by how this demonstrates the limitations of bigrams. I wrote an entire piece about an experience I had at [Challenge Day](https://www.challengeday.org/), so it’s much larger than “anxiety attack,” an experience that figures more prominently into more pieces but isn’t referred to by that name at all times (I’ll go over this one in particular when I discuss [sentiment analysis](part-6.md)). And “even though”? “Every time”? “Every day”? Are these just bad writing habits or could they mean something more that I’ll never uncover because they’re such common phrases?
 
 I’m going to take a deep breath and move on before I let a bigram word cloud, of all things, ruin my life.

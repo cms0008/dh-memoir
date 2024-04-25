@@ -4,7 +4,7 @@ When it comes to “idiosyncrasies that changed (or stayed the same) over time,�
 
 It turns out Voyant could help me out here, thanks to its (“new experimental”) [Categories](https://voyant-tools.org/docs/#!/guide/categories) feature that I decided to test for this portion of the project. Basically, Voyant has created a list of “positive” words and a list of “negative” words — a rudimentary form of sentiment analysis. And as someone who considers my writing rather negative, I am a total sucker for this stuff.
 
-Voyant can tell me how many words it has categorized as “positive” and “negative,” so I grabbed these numbers for each of the 37 pieces in my corpus; then, I calculated the percentage of “positive” and “negative” words per piece and added them to my spreadsheet.
+Voyant can tell me how many words it has categorized as “positive” and “negative,” so I grabbed these numbers for each of the 37 pieces in my corpus; then, I calculated the percentage of “positive” and “negative” words per piece and added them to my [spreadsheet](part-5.md).
 
 I was most interested in analyzing this through the lens of time — how “positive” and “negative” has my memoir writing been over time? Here’s what I came up with:
 

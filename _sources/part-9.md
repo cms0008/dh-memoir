@@ -10,9 +10,9 @@ And here were my initial thoughts:
 
 > Topic 10 felt like a trash can, honestly. All three contraction fragments ended up here, and what remained were a bunch of generic-seeming words that felt like they applied to a person in general, not me specifically. Time? It passes. School? People typically go to it. Friend/friends? A thing people tend to have. “History of my platonic relationships” arose from my desire to connect the dots by force — I tend to have made my friends at school or work, for instance. And they are…people? In my life? Who I feel things about?
 
-As I mentioned in Part 3, all 37 pieces in my corpus contributed to Topic 10. (The next most common were Topic 1 and Topic 6, which each had 15 pieces contributing to them.) On its surface, it had no personality. No one quite knew what to do with it. And still, every interpretation was correct.
+As I mentioned in [The Breakup](part-5.md), all 37 pieces in my corpus contributed to Topic 10. (The next most common were Topic 1 and Topic 6, which each had 15 pieces contributing to them.) On its surface, it had no personality. No one quite knew what to do with it. And still, every interpretation was correct.
 
-Besides all 37 pieces contributing to Topic 10, a whopping 15 pieces had Topic 10 as the primary topic. I’m thinking about something I said back in Part 1:
+Besides all 37 pieces contributing to Topic 10, a whopping 15 pieces had Topic 10 as the primary topic. I’m thinking about something I said back when I first introduced the [topic model](part-4.md):
 
 > However, the piece is about my relationship with Gonzaga basketball in the midst of worsening mental health crises. That \[TopicModelingTool] opted to separate these felt notable — **or, was it just a reflection of my writing that I didn’t do enough in the piece to connect the two?**
 
@@ -30,7 +30,7 @@ _School? People typically go to it._ In particular me, who has been pursuing hig
 
 _Friend/friends? A thing people tend to have._ Yet here I am, posting a screenshot of a tweet that reads “fumbling a friend group by having depression” to my Instagram story for everyone to see.
 
-I continued in Part 1:
+I continued:
 
 > "History of my platonic relationships" arose from my desire to connect the dots by force — I tend to have made my friends at school or work, for instance. And they are…people? In my life? Who I feel things about?
 
