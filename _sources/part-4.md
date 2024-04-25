@@ -5,7 +5,7 @@ Once again, here’s what I expected to find in this corpus before I started inv
 - **Basketball** (my journalism career mainly focused on covering the WNBA and NCAA women’s basketball)
 - **Family** (they’ve kind of just always been around, you know?)
 - **Music** (as a musician since age 7, I should hope so)
-Mental Health (as a mentally ill person for at least the last 20 years, I should hope so)
+- **Mental Health** (as a mentally ill person for at least the last 20 years, I should hope so)
 - **Gender Stuff** (I came out as nonbinary in 2020, and it’s a running joke among my friends how many of us during this time were like “in light of the global pandemic, I have some personal news…”)
 - **School** (I’ve been in some higher education program or another for 10 of the last 16 years)
 
