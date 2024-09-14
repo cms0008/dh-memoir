@@ -48,7 +48,7 @@ Thinking about Voyant’s Categories as a whole, I would say that some of these 
 Just for fun, here are some more words that Voyant has in its negative category:
 
 - **Cloud:** To be fair, I used the verb form in a negative way. But I’m not sure this tool is sophisticated enough to not tag the noun as negative, too. Sometimes a cloud is just a cloud. (Take that, Wordsworth.)
-- **Hum:** [I OED’d this](https://www.oed.com/search/dictionary/?scope=Entries&q=hum) because I could not come up with a single negative use for “hum” on my own. It turns out there are many. However, when I used “hum” in my work to refer to me playing the flute, I did not mean it negatively.
+- **Hum:** [I OED’d this](https://go.wisc.edu/hp1344) because I could not come up with a single negative use for “hum” on my own. It turns out there are many. However, when I used “hum” in my work to refer to me playing the flute, I did not mean it negatively.
 - **Indulge:** For those who attach morality to food, I understand that “indulge” often colloquially refers to, like, indulging oneself because one is “cheating” or “being bad” or whatever. I disagree.
 - **Myth:** Yes, sometimes negative, but sometimes a myth is just a thing, and sometimes it’s a very culturally important, positive thing.
 - **Tank:** Once again, Voyant has determined that the verb form is negative, but the noun form is caught in the crossfire. I personally think a goldfish having a place to live is neat.
