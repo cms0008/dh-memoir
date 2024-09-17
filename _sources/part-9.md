@@ -14,7 +14,7 @@ As I mentioned when I created my [spreadsheet](part-5.md), all 37 pieces in my c
 
 Besides all 37 pieces contributing to Topic 10, a whopping 15 pieces had Topic 10 as the primary topic. I’m thinking about something I said back when I first introduced the [topic model](part-4.md):
 
-> However, the piece is about my relationship with Gonzaga basketball in the midst of worsening mental health crises. That \[TopicModelingTool] opted to separate these felt notable — **or, was it just a reflection of my writing that I didn’t do enough in the piece to connect the two?**
+> However, the piece is about my relationship with Gonzaga basketball in the midst of worsening mental health crises. That \[Topic Modeling Tool] opted to separate these felt notable — **or, was it just a reflection of my writing that I didn’t do enough in the piece to connect the two?**
 
 Could it just be the case that my writing has no personality? That I undertook this project because I didn’t know what to do with it? That my writing is so segmented that it came up with nine distinct topics, but instead of settling on a tenth topic, the tool decided it needed to tell me about all the noise that is making my writing worse? Or…am I just undertaking an impossible endeavor of personifying technology, asking it to fix me?
 
